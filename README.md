@@ -4,7 +4,8 @@ This Solidity program performs the task of minting,burning and also to display t
 ## Description
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract contains mapping of addresses to balances that returns the token/coin balance. This program also contains use of functions to mint and burn tokens and it also contains a conditional statement to check the condition.This program basically contains all the basic things that are used in solidity to understand the basics.
 
-BRIEF CODE EXPLANATION 1-The mint function takes two parameters- address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
+BRIEF CODE EXPLANATION 
+1-The mint function takes two parameters- address and a value. The function then increases the total supply by that number and increases the balance of the address by that amount.
 
 2-The burn function takes two parameters- address and a value. The function then decreases the total supply by that number and decreases the balance of the address by that amount.
 
@@ -12,13 +13,14 @@ BRIEF CODE EXPLANATION 1-The mint function takes two parameters- address and a v
 
 4-When the address is passed with the balance , the balance returns the token balance. on clicking total balance also the token balance is showed.
 
+
 ## Getting Started
-## Executing program
+### Executing program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
 
 Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., token.sol). Copy and paste the following code into the file:
 
-'''javascript
+```javascript
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.18;
 
