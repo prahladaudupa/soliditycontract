@@ -1,6 +1,7 @@
 ## MINTING AND BURNING TOKENS
 This Solidity program performs the task of minting,burning and also to display the token balance. This program demonstrates the use of functions and mapping of addresses to balancee in the Solidity programming language and also the use od conditional statement. The purpose of this program is to build confidence in new coders and to make the coders understand the basics od solidity.
 
+
 ## Description
 This program is a simple contract written in Solidity, a programming language used for developing smart contracts on the Ethereum blockchain. The contract contains mapping of addresses to balances that returns the token/coin balance. This program also contains use of functions to mint and burn tokens and it also contains a conditional statement to check the condition.This program basically contains all the basic things that are used in solidity to understand the basics.
 
